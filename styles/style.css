@@ -1,0 +1,156 @@
+:root{
+    --border-color: #e034be;
+}
+body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 26%;
+    height: 470px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px #5653537c;
+    flex-direction: column;
+    position: relative;
+}
+
+.top-box{
+    width: 100%;
+    height: 120px;
+    background-color: var(--border-color);
+    border-radius: 8px 8px 0px 0px;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 81px;
+    position: absolute;
+    top: 45px;
+    padding: 10px;
+}
+
+.informations{
+    padding-top: 57px;
+    display: flex;
+    height: 64%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.colors{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+    height: 100px;
+}
+
+.colors div{
+    height: 15px;
+    width: 15px;
+    border: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 2px #565353;
+}
+
+.name{
+    color: var(--border-color); 
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.follow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.follower{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.following{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    font-weight: bolder;
+    font-size: 16px;
+    color: var(--border-color);
+}
+
+.num{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.followbtn{
+    width: 120px;
+    padding: 3px;
+    height: 35px;
+    border: transparent;
+    border-radius: 16px;
+    background-color: var(--border-color);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.message{
+    width: 120px;
+    padding: 3px;
+    height: 35px;
+    border: solid 3px;
+    border-radius: 16px;
+    background-color: transparent;
+    border-color: var(--border-color);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.one{
+    background-color: #14d19f;
+}
+
+.two{
+    background-color: #ab42bc;
+}
+
+.three{
+    background-color: #da526d;
+}
+
+.four{
+    background-color: #ded951;
+}
